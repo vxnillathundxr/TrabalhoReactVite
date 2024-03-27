@@ -13,7 +13,7 @@ export default function Menu() {
     {/* ------------------------------------------------------------- */}
              {/* Aba Cards/description*/}
              <p>
-                <a href='/card'>Cards</a>
+                <a href='/cards'>Cards</a>
             </p>
     {/* ------------------------------------------------------------- */}
              {/* Aba CalcMedia */}
@@ -23,7 +23,7 @@ export default function Menu() {
     {/* ------------------------------------------------------------- */}
              {/* Aba MapZap> */}
              <p>
-                <a href='/map'>MapZap</a>
+                <a href='/MapZap'>MapZap</a>
             </p>
     {/* ------------------------------------------------------------- */}
              {/* Aba ApiRickyAndmMorty */}

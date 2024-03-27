@@ -1,0 +1,105 @@
+/* Map-css */
+
+.wrap-all-contact{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.wrapH1{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 2vh;
+    gap: 1vh
+
+}
+
+.H2{
+    margin-top: 15vh;
+    margin-left: 6vw;
+    
+}
+
+.wrapTwoDivs{
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 10vh;
+    
+}
+
+.wrapMap{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh
+   
+}
+
+.wrapZap{
+    margin-top: 9vh;
+    gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Zap-css */
+
+.iputsDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+    
+}
+
+.wrapLabelInput{
+    display: flex;
+    gap: 2vw;
+}
+
+.labels{
+
+}
+
+.inputLabel, .txtArea{
+    display: flex;
+    gap: 10px;
+
+}
+
+.inputLabel{
+    display: flex;
+
+}
+
+.btnZap{
+    display: flex;
+    gap: 50vh;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--text-title);
+    color: var( --text-title);
+    background: none;
+   
+}
+
+.btnZap:hover{
+    border: 1px solid var(--text-p);
+    color: var(--text-p);
+    box-shadow: var(--color-shadow);
+    transition: all 200ms ease-in;
+}

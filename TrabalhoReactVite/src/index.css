@@ -4,13 +4,13 @@
 
 
 :root {
-  --text-title: #05a8a8;
+  --text-title: #ffffff;
   --text-p: #ffffff;
-  --bg-primary: #0a1424;
-  --bg-secondary: #162336;
-  --bg-third: #223147;
+  --bg-primary: #435d88;
+  --bg-secondary: #1f3e6d;
+  --bg-third: #222935;
   --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  --color-shadow: rgba(51, 185, 219, 0.315) 0px 5px 15px;
+  --color-shadow: rgba(12, 32, 88, 0.315) 0px 5px 15px;
 }
 
 *{

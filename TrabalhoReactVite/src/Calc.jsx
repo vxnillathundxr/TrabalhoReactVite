@@ -1,5 +1,5 @@
-import style from './Cards.module.css'
-import Menu from './components/Menu'
+import style from './Calc.module.css'
+import Menu from './components/Menu.jsx'
 
 import { useState } from "react"
 
@@ -35,7 +35,8 @@ export const Calc = () => {
         <div>
             <Menu/>
             <div className={style.wrapCalc}>
-                <h1>Calculos</h1>
+                <h1 className={style.H1}>Calculos</h1>
+                        <h2>Media</h2>
                     <div className={style.wrapInputsCalc}>
                         {/* .target = Dispara os eventos, ou seja, aciona eles */}
                         <input className={style.inpStyle} text="text" placeholder="Digite a primeira nota" value={numero01} onChange=
@@ -58,9 +59,8 @@ export const Calc = () => {
 
                     <div className={style.wrapInputsCalc}>
                         <div className={style.wrapMedia}>
-                            <h2>Media</h2>
-                            {!isNaN(respMedia) && <p>{resp.toFixed(2)}</p>}
-                            <button onClick={handleMedia}>Calcular Media</button>
+                            {!isNaN(respMedia) && <p>{respMedia.toFixed(2)}</p>}
+                            <button onClick={handleMedia} className={style['calc-btn']}>Calcular Media</button>
                         </div>
                     </div>
             </div>

@@ -7,6 +7,8 @@ import {
 
 import Inicio from './Inicio.jsx';
 import { Cards } from './Cards.jsx';
+import { Calc } from './Calc.jsx';
+import { MapZap } from './MapZap.jsx';
 
 import "./index.css";
 
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/cards",
     element: <Cards />,
+  },
+  {
+    path: "/calc",
+    element: <Calc />,
+  },
+  {
+    path: "/MapZap",
+    element: <MapZap />,
   },
 ]);
 
