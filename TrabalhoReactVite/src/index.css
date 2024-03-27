@@ -1,9 +1,9 @@
-*{
+/* *{
   background-color: red;
-}
+} */
 
 
-/* :root {
+:root {
   --text-title: #05a8a8;
   --text-p: #ffffff;
   --bg-primary: #0a1424;
@@ -63,4 +63,4 @@ a:hover {
 
 .leaflet-top{
   z-index: 888;
-} */
+} 

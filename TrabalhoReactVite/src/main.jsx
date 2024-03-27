@@ -6,13 +6,18 @@ import {
 } from "react-router-dom";
 
 import Inicio from './Inicio.jsx';
+import { Cards } from './Cards.jsx';
 
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Inicio/>,
+    element: <Inicio />,
+  },
+  {
+    path: "/cards",
+    element: <Cards />,
   },
 ]);
 

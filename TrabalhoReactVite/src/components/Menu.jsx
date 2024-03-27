@@ -4,7 +4,8 @@ import style from './Menu.module.css'
 export default function Menu() {
     return(
         <div className={style['wrap-menu']}>
-            
+                <h1>Abas</h1>
+            <div className={style['Abas-href']}>
             {/* Aba Inicio/Introducao */}
             <p>
                 <a href={'/'}>Inicio</a>
@@ -12,24 +13,25 @@ export default function Menu() {
     {/* ------------------------------------------------------------- */}
              {/* Aba Cards/description*/}
              <p>
-                <a href=""></a>
+                <a href='/card'>Cards</a>
             </p>
     {/* ------------------------------------------------------------- */}
              {/* Aba CalcMedia */}
              <p>
-                <a href=""></a>
+                <a href='/calc'>CalcMediaNota</a>
             </p>
     {/* ------------------------------------------------------------- */}
              {/* Aba MapZap> */}
              <p>
-                <a href=""></a>
+                <a href='/map'>MapZap</a>
             </p>
     {/* ------------------------------------------------------------- */}
              {/* Aba ApiRickyAndmMorty */}
              <p>
-                <a href=""></a>
+                <a href='/Requisicao'>RequisiçãoRM</a>
             </p>
     {/* ------------------------------------------------------------- */}
+            </div>
         </div>
     )
 }
