@@ -19,11 +19,11 @@ export const Cards = () => {
             <section className={style['wrap-card']}>
                 <h1>Cards</h1>
                     <div className={style['wrap-card-tid']}>
-                        {show === 'react' && <Aba title='REACT' imgSrc={ImgReact} desc='Duas frases'/>}
-                        {show === 'vite' && <Aba title='VITE' imgSrc={ImgVite} desc='Duas frases'/>}
-                        {show === 'axios' && <Aba title='AXIOS' imgSrc={ImgAxios} desc='Duas frases'/>}
-                        {show === 'reactRouterDom' && <Aba title='RRT' imgSrc={ImgReactRouterDom} desc='Duas frases'/>}
-                        {show === 'npm' && <Aba title='NPM' imgSrc={ImgNpm} desc='Duas frases'/>}
+                        {show === 'react' && <Aba title='REACT' imgSrc={ImgReact} desc='Ferramenta de Criação'/>}
+                        {show === 'vite' && <Aba title='VITE' imgSrc={ImgVite} desc='Ferramenta de Resolução'/>}
+                        {show === 'axios' && <Aba title='AXIOS' imgSrc={ImgAxios} desc='Comunicação de Dados'/>}
+                        {show === 'reactRouterDom' && <Aba title='RRT' imgSrc={ImgReactRouterDom} desc='Gerenciador de Rotas'/>}
+                        {show === 'npm' && <Aba title='NPM' imgSrc={ImgNpm} desc='Gerenciador de Pacotes'/>}
                         <div className={style.all}>
                         {show === 'all' &&
                         <>

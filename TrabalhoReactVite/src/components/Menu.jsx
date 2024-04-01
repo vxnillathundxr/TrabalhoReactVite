@@ -28,7 +28,7 @@ export default function Menu() {
     {/* ------------------------------------------------------------- */}
              {/* Aba ApiRickyAndmMorty */}
              <p>
-                <a href='/Requisicao'>RequisiçãoRM</a>
+                <a href='/Requisicao'>Requisição</a>
             </p>
     {/* ------------------------------------------------------------- */}
             </div>
