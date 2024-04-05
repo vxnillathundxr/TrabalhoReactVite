@@ -9,7 +9,7 @@ import {apiRMCharacters} from './API/server.js'
 import style from './Requisicao.module.css'
 
 
-export const  RaM = () => {
+export const  Requisicao = () => {
     const [data, setData] = useState([])
     const [page, setPage] = useState('')
     const [name, setName] = useState('')
